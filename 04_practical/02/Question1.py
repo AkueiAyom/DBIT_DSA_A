@@ -1,9 +1,5 @@
-def sum_of_elements(lst):
+def sum_of_elements(list):
     total = 0
-    for number in lst:
+    for number in list:
         total += number
     return total
-
-if __name__ == "__main__":
-    test_list = [1, 2, 3, 4]
-    print("Sum:", sum_of_elements(test_list))
